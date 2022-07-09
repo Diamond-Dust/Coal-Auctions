@@ -7,6 +7,7 @@ from bots import *
 
 from bots.SampleBot import SampleBot
 from bots.HistoricallyAwareCaveman import HistoricallyAwareCaveman
+from bots.GrandmaOnARollercoaster import GrandmaOnARollercoaster
 from bots.BaseBot import BaseBot
 from bots.MarstarsTestBot import MarstarsTestBot
 from bots.Twojstarybot import TwojStaryBot
