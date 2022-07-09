@@ -49,6 +49,15 @@ class SampleBotRevengeance(BaseBot):
 
         return my_bet
 
+    def return_to_mean(self, percentage_value, mine_id):
+        rnd = gauss(0, self.mines[mine_id]['deviation'])
+        if percentage_value > self.mines[mine_id]['average_purity']:
+            return percentage_value - math.fabs(rnd)
+        elif percentage_value < self.mines[mine_id]['average_purity']:
+            return percentage_value + math.fabs(rnd)
+        else:
+            return percentage_value - rnd
+
     def get_prognoses(self, quality_tests):
         return [
             (
@@ -56,7 +65,7 @@ class SampleBotRevengeance(BaseBot):
                 self.coal_market_valuation(
                     CoalInfo(
                         test.mine_id,
-                        test.pure_coal_percentage - gauss(0, self.mines[test.mine_id]['deviation']),
+                        self.return_to_mean(test.pure_coal_percentage, test.mine_id),
                         100.0
                     )
                 )
