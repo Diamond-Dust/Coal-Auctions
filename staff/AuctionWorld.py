@@ -15,6 +15,7 @@ from staff.Auctioneer import Auctioneer
 from staff.CoalMarket import CoalMarket
 from staff.CoalMine import CoalMine
 from bots.BetMaster3000 import XampleBot
+from bots.MenelSortujacy import XXampleBot
 
 
 class AuctionWorld:
