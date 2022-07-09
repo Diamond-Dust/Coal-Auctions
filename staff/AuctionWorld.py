@@ -6,6 +6,7 @@ from scipy.stats import truncnorm
 from bots import *
 
 from bots.SampleBot import SampleBot
+from bots.HistoricallyAwareCaveman import HistoricallyAwareCaveman
 from bots.BaseBot import BaseBot
 from staff.Auctioneer import Auctioneer
 from staff.CoalMarket import CoalMarket
