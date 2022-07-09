@@ -28,6 +28,3 @@ if __name__ == '__main__':
         winners[winner_name] = winners.get(winner_name, 0) + 1
     
     print(winners)
-
-    # Show the resulting plot
-    # auction.display(destination=destination)
