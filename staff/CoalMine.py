@@ -29,7 +29,7 @@ class CoalMine:
             99.0,
             max(
                 1.0,
-                self.pure_coal_percentage - gauss(0.0, self.deviation)
+                self.next_ore.pure_coal_percentage - gauss(0.0, self.deviation)
             )
         )
         return QualityTest(self.mine_id, pure_coal_percentage_in_ore, 100.0 - pure_coal_percentage_in_ore)
