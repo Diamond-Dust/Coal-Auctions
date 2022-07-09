@@ -48,7 +48,8 @@ That can lead to a transport being unsold. Such a transport is ceremonially burn
 
 In short: create a bot inheriting from `BaseBot`. Implement 
 `bet(quality_tests: List[QualityTest], previous_round_results: RoundResults, money: float)` in your bot. Put your bot
-in `bots` package (you can create you own subpackage inside it, but keep the main bot file in `bots/`). That's all!
+in `bots` package (you can create you own subpackage inside it, but keep the main bot file in `bots/`). 
+Import the bot in `AuctionWorld.py` according to the template `from bots import <BotName>`. That's all!
 
 ### Long version
 
