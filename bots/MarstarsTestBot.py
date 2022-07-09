@@ -4,7 +4,7 @@ from bots.BaseBot import BaseBot
 from staff.Bet import Bet
 
 
-class SampleBot(BaseBot):
+class MarstarsTestBot(BaseBot):
     #smrodobot testujacy stronke
 
     def __init__(self, bot_id, coal_market_valuation):
