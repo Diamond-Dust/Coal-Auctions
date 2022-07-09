@@ -7,6 +7,8 @@ from bots import *
 
 from bots.SampleBot import SampleBot
 from bots.BaseBot import BaseBot
+from bots.MarstarsTestBot import MarstarsTestBot
+from bots.Twojstarybot import TwojStaryBot
 from staff.Auctioneer import Auctioneer
 from staff.CoalMarket import CoalMarket
 from staff.CoalMine import CoalMine
