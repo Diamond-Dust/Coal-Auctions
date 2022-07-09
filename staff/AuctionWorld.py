@@ -7,7 +7,7 @@ from bots import *
 
 from bots.SampleBot import SampleBot
 from bots.HistoricallyAwareCaveman import HistoricallyAwareCaveman
-from bots.GrandmaOnARollercoaster import GrandmaOnARollercoaster
+# from bots.GrandmaOnARollercoaster import GrandmaOnARollercoaster
 from bots.BaseBot import BaseBot
 from bots.MarstarsTestBot import MarstarsTestBot
 from bots.Twojstarybot import TwojStaryBot
@@ -16,6 +16,7 @@ from staff.CoalMarket import CoalMarket
 from staff.CoalMine import CoalMine
 from bots.BetMaster3000 import XampleBot
 from bots.MenelSortujacy import XXampleBot
+from bots.SampleBotRevengeance import SampleBotRevengeance
 
 
 class AuctionWorld:
