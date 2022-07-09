@@ -5,7 +5,6 @@ from scipy.stats import truncnorm
 
 from bots import *
 
-from bots.BadBot import BadBot
 from bots.SampleBot import SampleBot
 from bots.BaseBot import BaseBot
 from staff.Auctioneer import Auctioneer
