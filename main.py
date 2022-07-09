@@ -1,5 +1,3 @@
-import sys
-
 from staff.AuctionWorld import AuctionWorld
 
 import argparse

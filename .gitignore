@@ -1,0 +1,6 @@
+.idea/
+
+staff/__pycache__/
+bots/__pycache__/
+staff/__pycache__/*
+bots/__pycache__/*
