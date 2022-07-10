@@ -9,7 +9,7 @@ from bots import *
 from bots.SampleBot import SampleBot
 # from bots.HistoricallyAwareCaveman import HistoricallyAwareCaveman
 # from bots.GrandmaOnARollercoaster import GrandmaOnARollercoaster
-from bots.MarstarsTestBot import MarstarsTestBot
+from bots.MarstarsBot import MarstarsBot
 from bots.OneGreedyPanda import OneGreedyPanda
 from bots.Twojstarybot import TwojStaryBot
 from bots.BetMaster3000 import XampleBot
