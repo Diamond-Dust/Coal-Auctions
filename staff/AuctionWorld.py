@@ -5,20 +5,23 @@ from scipy.stats import truncnorm
 
 from bots import *
 
+### bots imports
 from bots.SampleBot import SampleBot
-from bots.HistoricallyAwareCaveman import HistoricallyAwareCaveman
+# from bots.HistoricallyAwareCaveman import HistoricallyAwareCaveman
 # from bots.GrandmaOnARollercoaster import GrandmaOnARollercoaster
-from bots.BaseBot import BaseBot
 from bots.MarstarsTestBot import MarstarsTestBot
+from bots.OneGreedyPanda import OneGreedyPanda
 from bots.Twojstarybot import TwojStaryBot
-from staff.Auctioneer import Auctioneer
-from staff.CoalMarket import CoalMarket
-from staff.CoalMine import CoalMine
 from bots.BetMaster3000 import XampleBot
 from bots.MenelSortujacy import XXampleBot
 from bots.SampleBotRevengeance import SampleBotRevengeance
 from bots.Menelkulator import XXXampleBot
+###
 
+from bots.BaseBot import BaseBot
+from staff.Auctioneer import Auctioneer
+from staff.CoalMarket import CoalMarket
+from staff.CoalMine import CoalMine
 
 class AuctionWorld:
     def _initialise_bots(self):
