@@ -17,6 +17,7 @@ from staff.CoalMine import CoalMine
 from bots.BetMaster3000 import XampleBot
 from bots.MenelSortujacy import XXampleBot
 from bots.SampleBotRevengeance import SampleBotRevengeance
+from bots.Menelkulator import XXXampleBot
 
 
 class AuctionWorld:
